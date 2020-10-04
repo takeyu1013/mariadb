@@ -1,4 +1,4 @@
-FROM mariadb:latest
+FROM mariadb
 
 COPY ./post.sql /docker-entrypoint-initdb.d/
 
